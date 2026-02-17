@@ -1,0 +1,15 @@
+services:
+  postgis:
+    image: postgis/postgis:16-3.4
+    container_name: agri_geo_postgis
+    environment:
+      POSTGRES_DB: agri_geo
+      POSTGRES_USER: agri
+      POSTGRES_PASSWORD: agri
+    ports:
+      - "5434:5432"
+    volumes:
+      - postgis_data:/var/lib/postgresql/data
+
+volumes:
+  postgis_data:

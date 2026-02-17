@@ -1,0 +1,12 @@
+# Core
+earthengine-api>=0.1.300
+pandas
+numpy
+geopandas
+folium
+matplotlib
+jupyter
+scikit-learn
+psycopg2-binary
+fastapi
+uvicorn
