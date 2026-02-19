@@ -14,8 +14,8 @@ flowchart LR
   D --> E[Risk Score V1]
   E --> F[(PostGIS geo.parcel_runs)]
   F --> G[FastAPI]
-  G --> H[/risk/{parcel_id}]
-  G --> I[/risk/{parcel_id}/history]
+  G --> H["/risk/{parcel_id}"]
+  G --> I["/risk/{parcel_id}/history"]
 ```
 
 ## Quickstart
